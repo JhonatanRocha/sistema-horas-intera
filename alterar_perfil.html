@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Sistema de Lançamento de Horas">
+  <meta name="author" content="Intera Consultoria">
+
+  <!-- Título da Página -->
+  <title>Intera Consultoria - Sistema de Lançamento de Horas</title>
+
+  <!-- Main CSS -->
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+
+  <!-- Popper Core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+
+  <!-- JQuery Core JavaScript -->
+  <script src="js/jquery/jquery-3.3.1.min.js"></script>
+
+  <!-- Bootstrap Bundle JavaScript -->
+  <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+
+  <!-- Sistema de Horas Core JavaScript -->
+  <script src="js/sistema-horas.js"></script>
+
+</head>
+
+<body>
+  <!-- Barra de Navegação -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-orange">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo1.png" width="50" height="50" class="d-inline-block align-top logo-intera" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Horas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Relatórios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Demandas</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Nome do Usuário
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">
+                <i class="fas fa-user-circle"></i>
+                <span class="ml-2">Meu Perfil</span>
+              </a>
+              <a class="dropdown-item" href="#">
+                <i class="fas fa-sign-out-alt"></i>
+                <span class="ml-2">Sair</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteudo Principal da Pagina -->
+  <div class="container text-center mt-4">
+    <span class="fa-stack fa-2x">
+      <i class="fas fa-user-alt fa-stack-1x"></i>
+      <i class="far fa-circle fa-stack-2x"></i>
+    </span>
+
+    <h1 class="mb-3 font-weight-normal">Alterar Perfil</h1>
+    <hr>
+
+    <form class="form-login-intera">
+        <label for="inputChangeName" class="sr-only">Nome</label>
+        <div class="input-group mt-2">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              <i class="fas fa-user-alt"></i>
+            </span>
+          </div>
+          <input type="text" value="Nome do Usuário" class="form-control" id="inputChangeName" placeholder="Digite o seu nome" required>
+        </div>
+
+        <label for="inputChangeEmail" class="sr-only">Email</label>
+        <div class="input-group mt-2">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              <i class="fas fa-envelope"></i>
+            </span>
+          </div>
+          <input type="email" value="test@interaconsultoria.com.br" class="form-control" id="inputChangeEmail" placeholder="Digite o seu email" maxlength="20" required>
+        </div>
+    
+        <button class="btn btn-lg btn-primary btn-block mt-2" type="submit">
+          <i class="fas fa-pen"></i>
+          <span class="ml-2">Alterar Perfil</span>
+        </button>
+      </form>
+  </div>
+
+  <!-- Footer-->
+  <div class="footer text-white">Copyright 2018 @ Intera Consultoria - Todos os direitos reservados.</div>
+
+</body>
+
+</html>
